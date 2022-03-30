@@ -1,8 +1,39 @@
-.header .navbar {
-    background-color: transparent !important;
-}
-
-.nav-link,
-.navbar-brand {
-    color: white !important;
-}
+ html,
+ body {
+     background-color: black;
+     color: white;
+ }
+ 
+ .header .navbar {
+     background-color: transparent !important;
+ }
+ 
+ .nav-link,
+ .navbar-brand {
+     color: white !important;
+ }
+ 
+ footer {
+     background-color: rgba(13, 202, 240, 255);
+     color: white;
+     font-size: 25px;
+     margin-top: 25px;
+ }
+ 
+ .color-button {
+     background-color: rgba(13, 202, 240, 255);
+     border: none;
+ }
+ 
+ .card {
+     background-color: rgba(13, 202, 240, 255);
+ }
+ 
+ .color-fondo-icono {
+     background-color: rgba(13, 202, 240, 255);
+ }
+ 
+ a>i {
+     color: white;
+     margin-left: 5px;
+ }
