@@ -2,6 +2,7 @@
  body {
      background-color: black;
      color: white;
+     font-family: 'Roboto', sans-serif;
  }
  
  .header .navbar {
@@ -36,4 +37,22 @@
  a>i {
      color: white;
      margin-left: 5px;
+ }
+ 
+ .tooltip.bs-tooltip-top .tooltip-arrow::before {
+     border-top-color: red;
+ }
+ 
+ .tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+     border-bottom-color: red;
+ }
+ 
+ .tooltip.bs-tooltip-top .tooltip-inner {
+     color: rgba(13, 202, 240, 255);
+     background-color: white;
+ }
+ 
+ .tooltip.bs-tooltip-bottom .tooltip-inner {
+     color: rgba(13, 202, 240, 255);
+     background-color: white;
  }
