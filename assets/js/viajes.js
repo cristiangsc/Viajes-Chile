@@ -1,3 +1,4 @@
+//funcion para realizar efecto de scroll a secciones especificas de la página
 $(".navbar-nav a").on("click", function(e) {
     // 1
     e.preventDefault();
@@ -7,6 +8,8 @@ $(".navbar-nav a").on("click", function(e) {
     $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
 });
 
+
+//función para realizar efecto toolpip y mensaje de alert al hacer clic sobre el boton enviar
 $(function() {
     $('[data-bs-toggle="tooltip"]').tooltip()
 
