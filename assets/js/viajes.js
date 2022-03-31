@@ -18,3 +18,16 @@ $(function() {
     });
 
 })
+
+
+// función permite al hacer scroll colocar un fondo sobre el navbar
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 480) {
+        nav.classList.add('bg-dark', 'shadow');
+    } else {
+        nav.classList.remove('bg-dark', 'shadow');
+
+    }
+})

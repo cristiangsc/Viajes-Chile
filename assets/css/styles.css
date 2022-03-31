@@ -9,10 +9,6 @@
      margin-top: 0 !important;
  }
  /* Cambiar a transparente el navbar*/
- 
- .header .navbar {
-     background-color: transparent !important;
- }
  /* Cambiar color de link*/
  
  .nav-link,
