@@ -5,14 +5,21 @@
      font-family: 'Roboto', sans-serif;
  }
  
+ #carousel-indicators {
+     margin-top: 0 !important;
+ }
+ /* Cambiar a transparente el navbar*/
+ 
  .header .navbar {
      background-color: transparent !important;
  }
+ /* Cambiar color de link*/
  
  .nav-link,
  .navbar-brand {
      color: white !important;
  }
+ /* alto, ancho y color texto del footer*/
  
  footer {
      background-color: rgba(13, 202, 240, 255);
@@ -20,11 +27,13 @@
      font-size: 25px;
      margin-top: 25px;
  }
+ /* Cambiar color de btn de formulario de contacto*/
  
  .color-button {
      background-color: rgba(13, 202, 240, 255);
      border: none;
  }
+ /* color de fondo de las card*/
  
  .card {
      background-color: rgba(13, 202, 240, 255);
@@ -33,11 +42,13 @@
  .color-fondo-icono {
      background-color: rgba(13, 202, 240, 255);
  }
+ /* Cambiar color de favicom*/
  
  a>i {
      color: white;
      margin-left: 5px;
  }
+ /* Cambiar color tooltip*/
  
  .tooltip.bs-tooltip-top .tooltip-arrow::before {
      border-top-color: red;
@@ -55,4 +66,14 @@
  .tooltip.bs-tooltip-bottom .tooltip-inner {
      color: rgba(13, 202, 240, 255);
      background-color: white;
+ }
+ 
+ .carousel-item {
+     height: 65vh;
+     min-height: 300px;
+     background: no-repeat center center scroll;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
  }
